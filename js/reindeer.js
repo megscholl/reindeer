@@ -12,10 +12,10 @@ var reindeerCount = reindeer.length;
 
 var colorReindeer = "";
 
-for (var i = 0; i < colorSize; i++) {
-      for (var j = 0; j < reindeerCount; j++) {
-      colorReindeer += colors[i] + " " + reindeer[j] + "<br>";
-    }
+for (var i = 0; i < reindeerCount; i++) {
+
+      colorReindeer += colors[i] + " " + reindeer[i] + "<br>";
+
 }
 
 var hohohoElement = document.getElementById("reindeer");
@@ -23,5 +23,5 @@ var hohohoElement = document.getElementById("reindeer");
 document.getElementById("reindeer").innerHTML = colorReindeer;
 
 
-
+// for (var j = 0; j < reindeerCount; j++) {    }
 
